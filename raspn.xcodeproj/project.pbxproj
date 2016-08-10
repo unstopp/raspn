@@ -8,6 +8,52 @@
 
 /* Begin PBXBuildFile section */
 		2989E67A1D5A3C0A00E5BA49 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2989E6791D5A3C0A00E5BA49 /* main.cpp */; };
+		29AC0D341D5B9F900028C995 /* datasignal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29AC0C911D5B9F900028C995 /* datasignal.cpp */; };
+		29AC0D351D5B9F900028C995 /* debug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29AC0C931D5B9F900028C995 /* debug.cpp */; };
+		29AC0D361D5B9F900028C995 /* event.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29AC0C941D5B9F900028C995 /* event.cpp */; };
+		29AC0D371D5B9F900028C995 /* logging.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29AC0C971D5B9F900028C995 /* logging.cpp */; };
+		29AC0D381D5B9F900028C995 /* moduleinfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29AC0C9C1D5B9F900028C995 /* moduleinfo.cpp */; };
+		29AC0D391D5B9F900028C995 /* responseheader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29AC0C9F1D5B9F900028C995 /* responseheader.cpp */; };
+		29AC0D3A1D5B9F900028C995 /* settings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29AC0CA11D5B9F900028C995 /* settings.cpp */; };
+		29AC0D3B1D5B9F900028C995 /* timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29AC0CA41D5B9F900028C995 /* timer.cpp */; };
+		29AC0D3C1D5B9F900028C995 /* version.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29AC0CA71D5B9F900028C995 /* version.cpp */; };
+		29AC0D3D1D5B9F900028C995 /* datainterpreter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29AC0CBB1D5B9F900028C995 /* datainterpreter.cpp */; };
+		29AC0D3E1D5B9F900028C995 /* metawearboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29AC0CBC1D5B9F900028C995 /* metawearboard.cpp */; };
+		29AC0D3F1D5B9F900028C995 /* haptic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29AC0CBF1D5B9F900028C995 /* haptic.cpp */; };
+		29AC0D401D5B9F900028C995 /* ibeacon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29AC0CC01D5B9F900028C995 /* ibeacon.cpp */; };
+		29AC0D411D5B9F900028C995 /* led.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29AC0CC11D5B9F900028C995 /* led.cpp */; };
+		29AC0D421D5B9F900028C995 /* neopixel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29AC0CC21D5B9F900028C995 /* neopixel.cpp */; };
+		29AC0D431D5B9F900028C995 /* async_creator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29AC0CCB1D5B9F900028C995 /* async_creator.cpp */; };
+		29AC0D441D5B9F900028C995 /* memory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29AC0CCE1D5B9F900028C995 /* memory.cpp */; };
+		29AC0D451D5B9F900028C995 /* task.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29AC0CCF1D5B9F900028C995 /* task.cpp */; };
+		29AC0D461D5B9F900028C995 /* threadpool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29AC0CD11D5B9F900028C995 /* threadpool.cpp */; };
+		29AC0D471D5B9F900028C995 /* accumulator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29AC0CDC1D5B9F900028C995 /* accumulator.cpp */; };
+		29AC0D481D5B9F900028C995 /* average.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29AC0CDD1D5B9F900028C995 /* average.cpp */; };
+		29AC0D491D5B9F900028C995 /* buffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29AC0CDE1D5B9F900028C995 /* buffer.cpp */; };
+		29AC0D4A1D5B9F900028C995 /* combiner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29AC0CDF1D5B9F900028C995 /* combiner.cpp */; };
+		29AC0D4B1D5B9F900028C995 /* comparator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29AC0CE01D5B9F900028C995 /* comparator.cpp */; };
+		29AC0D4C1D5B9F900028C995 /* dataprocessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29AC0CE11D5B9F900028C995 /* dataprocessor.cpp */; };
+		29AC0D4D1D5B9F900028C995 /* delta.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29AC0CE41D5B9F900028C995 /* delta.cpp */; };
+		29AC0D4E1D5B9F900028C995 /* math.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29AC0CE51D5B9F900028C995 /* math.cpp */; };
+		29AC0D4F1D5B9F900028C995 /* passthrough.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29AC0CE61D5B9F900028C995 /* passthrough.cpp */; };
+		29AC0D501D5B9F900028C995 /* pulse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29AC0CE81D5B9F900028C995 /* pulse.cpp */; };
+		29AC0D511D5B9F900028C995 /* sample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29AC0CE91D5B9F900028C995 /* sample.cpp */; };
+		29AC0D521D5B9F900028C995 /* threshold.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29AC0CEA1D5B9F900028C995 /* threshold.cpp */; };
+		29AC0D531D5B9F900028C995 /* time.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29AC0CEB1D5B9F900028C995 /* time.cpp */; };
+		29AC0D541D5B9F900028C995 /* accelerometer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29AC0D001D5B9F900028C995 /* accelerometer.cpp */; };
+		29AC0D551D5B9F900028C995 /* accelerometer_bosch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29AC0D011D5B9F900028C995 /* accelerometer_bosch.cpp */; };
+		29AC0D561D5B9F900028C995 /* accelerometer_mma8452q.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29AC0D041D5B9F900028C995 /* accelerometer_mma8452q.cpp */; };
+		29AC0D571D5B9F900028C995 /* ambientlight_ltr329.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29AC0D081D5B9F900028C995 /* ambientlight_ltr329.cpp */; };
+		29AC0D581D5B9F900028C995 /* barometer_bosch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29AC0D0B1D5B9F900028C995 /* barometer_bosch.cpp */; };
+		29AC0D591D5B9F900028C995 /* colordetector_tcs34725.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29AC0D0E1D5B9F900028C995 /* colordetector_tcs34725.cpp */; };
+		29AC0D5A1D5B9F900028C995 /* gpio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29AC0D111D5B9F900028C995 /* gpio.cpp */; };
+		29AC0D5B1D5B9F900028C995 /* gyro_bmi160.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29AC0D141D5B9F900028C995 /* gyro_bmi160.cpp */; };
+		29AC0D5C1D5B9F900028C995 /* humidity_bme280.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29AC0D171D5B9F900028C995 /* humidity_bme280.cpp */; };
+		29AC0D5D1D5B9F900028C995 /* magnetometer_bmm150.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29AC0D1A1D5B9F900028C995 /* magnetometer_bmm150.cpp */; };
+		29AC0D5E1D5B9F900028C995 /* multichanneltemperature.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29AC0D1D1D5B9F900028C995 /* multichanneltemperature.cpp */; };
+		29AC0D5F1D5B9F900028C995 /* proximity_tsl2671.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29AC0D201D5B9F900028C995 /* proximity_tsl2671.cpp */; };
+		29AC0D601D5B9F900028C995 /* serialpassthrough.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29AC0D231D5B9F900028C995 /* serialpassthrough.cpp */; };
+		29AC0D611D5B9F900028C995 /* switch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29AC0D261D5B9F900028C995 /* switch.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,7 +71,161 @@
 /* Begin PBXFileReference section */
 		2989E6761D5A3C0A00E5BA49 /* raspn */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = raspn; sourceTree = BUILT_PRODUCTS_DIR; };
 		2989E6791D5A3C0A00E5BA49 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		29AC08951D5B911D0028C995 /* metawear */ = {isa = PBXFileReference; lastKnownFileType = folder; path = metawear; sourceTree = "<group>"; };
+		29AC0C8F1D5B9F900028C995 /* constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constant.h; sourceTree = "<group>"; };
+		29AC0C901D5B9F900028C995 /* datainterpreter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = datainterpreter.h; sourceTree = "<group>"; };
+		29AC0C911D5B9F900028C995 /* datasignal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = datasignal.cpp; sourceTree = "<group>"; };
+		29AC0C921D5B9F900028C995 /* datasignal_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = datasignal_private.h; sourceTree = "<group>"; };
+		29AC0C931D5B9F900028C995 /* debug.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = debug.cpp; sourceTree = "<group>"; };
+		29AC0C941D5B9F900028C995 /* event.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = event.cpp; sourceTree = "<group>"; };
+		29AC0C951D5B9F900028C995 /* event_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = event_private.h; sourceTree = "<group>"; };
+		29AC0C961D5B9F900028C995 /* event_register.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = event_register.h; sourceTree = "<group>"; };
+		29AC0C971D5B9F900028C995 /* logging.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = logging.cpp; sourceTree = "<group>"; };
+		29AC0C981D5B9F900028C995 /* logging_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logging_private.h; sourceTree = "<group>"; };
+		29AC0C991D5B9F900028C995 /* logging_register.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logging_register.h; sourceTree = "<group>"; };
+		29AC0C9A1D5B9F900028C995 /* metawearboard_def.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metawearboard_def.h; sourceTree = "<group>"; };
+		29AC0C9B1D5B9F900028C995 /* metawearboard_macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metawearboard_macro.h; sourceTree = "<group>"; };
+		29AC0C9C1D5B9F900028C995 /* moduleinfo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = moduleinfo.cpp; sourceTree = "<group>"; };
+		29AC0C9D1D5B9F900028C995 /* moduleinfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = moduleinfo.h; sourceTree = "<group>"; };
+		29AC0C9E1D5B9F900028C995 /* register.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = register.h; sourceTree = "<group>"; };
+		29AC0C9F1D5B9F900028C995 /* responseheader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = responseheader.cpp; sourceTree = "<group>"; };
+		29AC0CA01D5B9F900028C995 /* responseheader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = responseheader.h; sourceTree = "<group>"; };
+		29AC0CA11D5B9F900028C995 /* settings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = settings.cpp; sourceTree = "<group>"; };
+		29AC0CA21D5B9F900028C995 /* settings_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = settings_private.h; sourceTree = "<group>"; };
+		29AC0CA31D5B9F900028C995 /* settings_register.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = settings_register.h; sourceTree = "<group>"; };
+		29AC0CA41D5B9F900028C995 /* timer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = timer.cpp; sourceTree = "<group>"; };
+		29AC0CA51D5B9F900028C995 /* timer_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timer_private.h; sourceTree = "<group>"; };
+		29AC0CA61D5B9F900028C995 /* timer_register.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timer_register.h; sourceTree = "<group>"; };
+		29AC0CA71D5B9F900028C995 /* version.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = version.cpp; sourceTree = "<group>"; };
+		29AC0CA81D5B9F900028C995 /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
+		29AC0CA91D5B9F900028C995 /* data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = data.h; sourceTree = "<group>"; };
+		29AC0CAA1D5B9F900028C995 /* datasignal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = datasignal.h; sourceTree = "<group>"; };
+		29AC0CAB1D5B9F900028C995 /* datasignal_fwd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = datasignal_fwd.h; sourceTree = "<group>"; };
+		29AC0CAC1D5B9F900028C995 /* debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = debug.h; sourceTree = "<group>"; };
+		29AC0CAD1D5B9F900028C995 /* event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = event.h; sourceTree = "<group>"; };
+		29AC0CAE1D5B9F900028C995 /* event_fwd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = event_fwd.h; sourceTree = "<group>"; };
+		29AC0CAF1D5B9F900028C995 /* logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logging.h; sourceTree = "<group>"; };
+		29AC0CB01D5B9F900028C995 /* logging_fwd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logging_fwd.h; sourceTree = "<group>"; };
+		29AC0CB11D5B9F900028C995 /* metawearboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metawearboard.h; sourceTree = "<group>"; };
+		29AC0CB21D5B9F900028C995 /* metawearboard_fwd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metawearboard_fwd.h; sourceTree = "<group>"; };
+		29AC0CB31D5B9F900028C995 /* module.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = module.h; sourceTree = "<group>"; };
+		29AC0CB41D5B9F900028C995 /* settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = settings.h; sourceTree = "<group>"; };
+		29AC0CB51D5B9F900028C995 /* status.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = status.h; sourceTree = "<group>"; };
+		29AC0CB61D5B9F900028C995 /* timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timer.h; sourceTree = "<group>"; };
+		29AC0CB71D5B9F900028C995 /* timer_fwd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timer_fwd.h; sourceTree = "<group>"; };
+		29AC0CB81D5B9F900028C995 /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		29AC0CBB1D5B9F900028C995 /* datainterpreter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = datainterpreter.cpp; sourceTree = "<group>"; };
+		29AC0CBC1D5B9F900028C995 /* metawearboard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = metawearboard.cpp; sourceTree = "<group>"; };
+		29AC0CBF1D5B9F900028C995 /* haptic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = haptic.cpp; sourceTree = "<group>"; };
+		29AC0CC01D5B9F900028C995 /* ibeacon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ibeacon.cpp; sourceTree = "<group>"; };
+		29AC0CC11D5B9F900028C995 /* led.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = led.cpp; sourceTree = "<group>"; };
+		29AC0CC21D5B9F900028C995 /* neopixel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = neopixel.cpp; sourceTree = "<group>"; };
+		29AC0CC31D5B9F900028C995 /* haptic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = haptic.h; sourceTree = "<group>"; };
+		29AC0CC41D5B9F900028C995 /* ibeacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ibeacon.h; sourceTree = "<group>"; };
+		29AC0CC51D5B9F900028C995 /* led.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = led.h; sourceTree = "<group>"; };
+		29AC0CC61D5B9F900028C995 /* neopixel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = neopixel.h; sourceTree = "<group>"; };
+		29AC0CC71D5B9F900028C995 /* peripheral_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = peripheral_common.h; sourceTree = "<group>"; };
+		29AC0CC91D5B9F900028C995 /* btle_connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = btle_connection.h; sourceTree = "<group>"; };
+		29AC0CCB1D5B9F900028C995 /* async_creator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = async_creator.cpp; sourceTree = "<group>"; };
+		29AC0CCC1D5B9F900028C995 /* async_creator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = async_creator.h; sourceTree = "<group>"; };
+		29AC0CCD1D5B9F900028C995 /* concurrent_queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = concurrent_queue.h; sourceTree = "<group>"; };
+		29AC0CCE1D5B9F900028C995 /* memory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = memory.cpp; sourceTree = "<group>"; };
+		29AC0CCF1D5B9F900028C995 /* task.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = task.cpp; sourceTree = "<group>"; };
+		29AC0CD01D5B9F900028C995 /* task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = task.h; sourceTree = "<group>"; };
+		29AC0CD11D5B9F900028C995 /* threadpool.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = threadpool.cpp; sourceTree = "<group>"; };
+		29AC0CD21D5B9F900028C995 /* threadpool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = threadpool.h; sourceTree = "<group>"; };
+		29AC0CD31D5B9F900028C995 /* dllmarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dllmarker.h; sourceTree = "<group>"; };
+		29AC0CD41D5B9F900028C995 /* memory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memory.h; sourceTree = "<group>"; };
+		29AC0CD61D5B9F900028C995 /* accumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = accumulator.h; sourceTree = "<group>"; };
+		29AC0CD71D5B9F900028C995 /* average.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = average.h; sourceTree = "<group>"; };
+		29AC0CD81D5B9F900028C995 /* buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = buffer.h; sourceTree = "<group>"; };
+		29AC0CD91D5B9F900028C995 /* comparator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = comparator.h; sourceTree = "<group>"; };
+		29AC0CDA1D5B9F900028C995 /* counter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = counter.h; sourceTree = "<group>"; };
+		29AC0CDC1D5B9F900028C995 /* accumulator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = accumulator.cpp; sourceTree = "<group>"; };
+		29AC0CDD1D5B9F900028C995 /* average.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = average.cpp; sourceTree = "<group>"; };
+		29AC0CDE1D5B9F900028C995 /* buffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = buffer.cpp; sourceTree = "<group>"; };
+		29AC0CDF1D5B9F900028C995 /* combiner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = combiner.cpp; sourceTree = "<group>"; };
+		29AC0CE01D5B9F900028C995 /* comparator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = comparator.cpp; sourceTree = "<group>"; };
+		29AC0CE11D5B9F900028C995 /* dataprocessor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dataprocessor.cpp; sourceTree = "<group>"; };
+		29AC0CE21D5B9F900028C995 /* dataprocessor_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dataprocessor_private.h; sourceTree = "<group>"; };
+		29AC0CE31D5B9F900028C995 /* dataprocessor_register.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dataprocessor_register.h; sourceTree = "<group>"; };
+		29AC0CE41D5B9F900028C995 /* delta.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = delta.cpp; sourceTree = "<group>"; };
+		29AC0CE51D5B9F900028C995 /* math.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = math.cpp; sourceTree = "<group>"; };
+		29AC0CE61D5B9F900028C995 /* passthrough.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = passthrough.cpp; sourceTree = "<group>"; };
+		29AC0CE71D5B9F900028C995 /* processor_private_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = processor_private_common.h; sourceTree = "<group>"; };
+		29AC0CE81D5B9F900028C995 /* pulse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pulse.cpp; sourceTree = "<group>"; };
+		29AC0CE91D5B9F900028C995 /* sample.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sample.cpp; sourceTree = "<group>"; };
+		29AC0CEA1D5B9F900028C995 /* threshold.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = threshold.cpp; sourceTree = "<group>"; };
+		29AC0CEB1D5B9F900028C995 /* time.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = time.cpp; sourceTree = "<group>"; };
+		29AC0CEC1D5B9F900028C995 /* dataprocessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dataprocessor.h; sourceTree = "<group>"; };
+		29AC0CED1D5B9F900028C995 /* dataprocessor_fwd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dataprocessor_fwd.h; sourceTree = "<group>"; };
+		29AC0CEE1D5B9F900028C995 /* delta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = delta.h; sourceTree = "<group>"; };
+		29AC0CEF1D5B9F900028C995 /* math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = math.h; sourceTree = "<group>"; };
+		29AC0CF01D5B9F900028C995 /* passthrough.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = passthrough.h; sourceTree = "<group>"; };
+		29AC0CF11D5B9F900028C995 /* processor_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = processor_common.h; sourceTree = "<group>"; };
+		29AC0CF21D5B9F900028C995 /* pulse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pulse.h; sourceTree = "<group>"; };
+		29AC0CF31D5B9F900028C995 /* rms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rms.h; sourceTree = "<group>"; };
+		29AC0CF41D5B9F900028C995 /* rss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rss.h; sourceTree = "<group>"; };
+		29AC0CF51D5B9F900028C995 /* sample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sample.h; sourceTree = "<group>"; };
+		29AC0CF61D5B9F900028C995 /* threshold.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = threshold.h; sourceTree = "<group>"; };
+		29AC0CF71D5B9F900028C995 /* time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = time.h; sourceTree = "<group>"; };
+		29AC0CF91D5B9F900028C995 /* accelerometer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = accelerometer.h; sourceTree = "<group>"; };
+		29AC0CFA1D5B9F900028C995 /* accelerometer_bosch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = accelerometer_bosch.h; sourceTree = "<group>"; };
+		29AC0CFB1D5B9F900028C995 /* accelerometer_mma8452q.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = accelerometer_mma8452q.h; sourceTree = "<group>"; };
+		29AC0CFC1D5B9F900028C995 /* ambientlight_ltr329.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ambientlight_ltr329.h; sourceTree = "<group>"; };
+		29AC0CFD1D5B9F900028C995 /* barometer_bosch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = barometer_bosch.h; sourceTree = "<group>"; };
+		29AC0CFE1D5B9F900028C995 /* colordetector_tcs34725.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = colordetector_tcs34725.h; sourceTree = "<group>"; };
+		29AC0D001D5B9F900028C995 /* accelerometer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = accelerometer.cpp; sourceTree = "<group>"; };
+		29AC0D011D5B9F900028C995 /* accelerometer_bosch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = accelerometer_bosch.cpp; sourceTree = "<group>"; };
+		29AC0D021D5B9F900028C995 /* accelerometer_bosch_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = accelerometer_bosch_private.h; sourceTree = "<group>"; };
+		29AC0D031D5B9F900028C995 /* accelerometer_bosch_register.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = accelerometer_bosch_register.h; sourceTree = "<group>"; };
+		29AC0D041D5B9F900028C995 /* accelerometer_mma8452q.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = accelerometer_mma8452q.cpp; sourceTree = "<group>"; };
+		29AC0D051D5B9F900028C995 /* accelerometer_mma8452q_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = accelerometer_mma8452q_private.h; sourceTree = "<group>"; };
+		29AC0D061D5B9F900028C995 /* accelerometer_mma8452q_register.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = accelerometer_mma8452q_register.h; sourceTree = "<group>"; };
+		29AC0D071D5B9F900028C995 /* accelerometer_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = accelerometer_private.h; sourceTree = "<group>"; };
+		29AC0D081D5B9F900028C995 /* ambientlight_ltr329.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ambientlight_ltr329.cpp; sourceTree = "<group>"; };
+		29AC0D091D5B9F900028C995 /* ambientlight_ltr329_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ambientlight_ltr329_private.h; sourceTree = "<group>"; };
+		29AC0D0A1D5B9F900028C995 /* ambientlight_ltr329_register.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ambientlight_ltr329_register.h; sourceTree = "<group>"; };
+		29AC0D0B1D5B9F900028C995 /* barometer_bosch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = barometer_bosch.cpp; sourceTree = "<group>"; };
+		29AC0D0C1D5B9F900028C995 /* barometer_bosch_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = barometer_bosch_private.h; sourceTree = "<group>"; };
+		29AC0D0D1D5B9F900028C995 /* barometer_bosch_register.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = barometer_bosch_register.h; sourceTree = "<group>"; };
+		29AC0D0E1D5B9F900028C995 /* colordetector_tcs34725.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = colordetector_tcs34725.cpp; sourceTree = "<group>"; };
+		29AC0D0F1D5B9F900028C995 /* colordetector_tcs34725_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = colordetector_tcs34725_private.h; sourceTree = "<group>"; };
+		29AC0D101D5B9F900028C995 /* colordetector_tcs34725_register.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = colordetector_tcs34725_register.h; sourceTree = "<group>"; };
+		29AC0D111D5B9F900028C995 /* gpio.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gpio.cpp; sourceTree = "<group>"; };
+		29AC0D121D5B9F900028C995 /* gpio_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gpio_private.h; sourceTree = "<group>"; };
+		29AC0D131D5B9F900028C995 /* gpio_register.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gpio_register.h; sourceTree = "<group>"; };
+		29AC0D141D5B9F900028C995 /* gyro_bmi160.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gyro_bmi160.cpp; sourceTree = "<group>"; };
+		29AC0D151D5B9F900028C995 /* gyro_bmi160_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gyro_bmi160_private.h; sourceTree = "<group>"; };
+		29AC0D161D5B9F900028C995 /* gyro_bmi160_register.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gyro_bmi160_register.h; sourceTree = "<group>"; };
+		29AC0D171D5B9F900028C995 /* humidity_bme280.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = humidity_bme280.cpp; sourceTree = "<group>"; };
+		29AC0D181D5B9F900028C995 /* humidity_bme280_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = humidity_bme280_private.h; sourceTree = "<group>"; };
+		29AC0D191D5B9F900028C995 /* humidity_bme280_register.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = humidity_bme280_register.h; sourceTree = "<group>"; };
+		29AC0D1A1D5B9F900028C995 /* magnetometer_bmm150.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = magnetometer_bmm150.cpp; sourceTree = "<group>"; };
+		29AC0D1B1D5B9F900028C995 /* magnetometer_bmm150_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = magnetometer_bmm150_private.h; sourceTree = "<group>"; };
+		29AC0D1C1D5B9F900028C995 /* magnetometer_bmm150_register.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = magnetometer_bmm150_register.h; sourceTree = "<group>"; };
+		29AC0D1D1D5B9F900028C995 /* multichanneltemperature.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = multichanneltemperature.cpp; sourceTree = "<group>"; };
+		29AC0D1E1D5B9F900028C995 /* multichanneltemperature_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = multichanneltemperature_private.h; sourceTree = "<group>"; };
+		29AC0D1F1D5B9F900028C995 /* multichanneltemperature_register.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = multichanneltemperature_register.h; sourceTree = "<group>"; };
+		29AC0D201D5B9F900028C995 /* proximity_tsl2671.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = proximity_tsl2671.cpp; sourceTree = "<group>"; };
+		29AC0D211D5B9F900028C995 /* proximity_tsl2671_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = proximity_tsl2671_private.h; sourceTree = "<group>"; };
+		29AC0D221D5B9F900028C995 /* proximity_tsl2671_register.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = proximity_tsl2671_register.h; sourceTree = "<group>"; };
+		29AC0D231D5B9F900028C995 /* serialpassthrough.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = serialpassthrough.cpp; sourceTree = "<group>"; };
+		29AC0D241D5B9F900028C995 /* serialpassthrough_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = serialpassthrough_private.h; sourceTree = "<group>"; };
+		29AC0D251D5B9F900028C995 /* serialpassthrough_register.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = serialpassthrough_register.h; sourceTree = "<group>"; };
+		29AC0D261D5B9F900028C995 /* switch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = switch.cpp; sourceTree = "<group>"; };
+		29AC0D271D5B9F900028C995 /* switch_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = switch_private.h; sourceTree = "<group>"; };
+		29AC0D281D5B9F900028C995 /* switch_register.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = switch_register.h; sourceTree = "<group>"; };
+		29AC0D291D5B9F900028C995 /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
+		29AC0D2A1D5B9F900028C995 /* gpio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gpio.h; sourceTree = "<group>"; };
+		29AC0D2B1D5B9F900028C995 /* gyro_bmi160.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gyro_bmi160.h; sourceTree = "<group>"; };
+		29AC0D2C1D5B9F900028C995 /* humidity_bme280.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = humidity_bme280.h; sourceTree = "<group>"; };
+		29AC0D2D1D5B9F900028C995 /* i2c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = i2c.h; sourceTree = "<group>"; };
+		29AC0D2E1D5B9F900028C995 /* magnetometer_bmm150.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = magnetometer_bmm150.h; sourceTree = "<group>"; };
+		29AC0D2F1D5B9F900028C995 /* multichanneltemperature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = multichanneltemperature.h; sourceTree = "<group>"; };
+		29AC0D301D5B9F900028C995 /* proximity_tsl2671.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = proximity_tsl2671.h; sourceTree = "<group>"; };
+		29AC0D311D5B9F900028C995 /* sensor_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sensor_common.h; sourceTree = "<group>"; };
+		29AC0D321D5B9F900028C995 /* spi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = spi.h; sourceTree = "<group>"; };
+		29AC0D331D5B9F900028C995 /* switch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = switch.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +258,268 @@
 		2989E6781D5A3C0A00E5BA49 /* raspn */ = {
 			isa = PBXGroup;
 			children = (
-				29AC08951D5B911D0028C995 /* metawear */,
+				29AC0C8C1D5B9F900028C995 /* metawear */,
 				2989E6791D5A3C0A00E5BA49 /* main.cpp */,
 			);
 			path = raspn;
+			sourceTree = "<group>";
+		};
+		29AC0C8C1D5B9F900028C995 /* metawear */ = {
+			isa = PBXGroup;
+			children = (
+				29AC0C8D1D5B9F900028C995 /* core */,
+				29AC0CB91D5B9F900028C995 /* impl */,
+				29AC0CBD1D5B9F900028C995 /* peripheral */,
+				29AC0CC81D5B9F900028C995 /* platform */,
+				29AC0CD51D5B9F900028C995 /* processor */,
+				29AC0CF81D5B9F900028C995 /* sensor */,
+			);
+			path = metawear;
+			sourceTree = "<group>";
+		};
+		29AC0C8D1D5B9F900028C995 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				29AC0C8E1D5B9F900028C995 /* cpp */,
+				29AC0CA91D5B9F900028C995 /* data.h */,
+				29AC0CAA1D5B9F900028C995 /* datasignal.h */,
+				29AC0CAB1D5B9F900028C995 /* datasignal_fwd.h */,
+				29AC0CAC1D5B9F900028C995 /* debug.h */,
+				29AC0CAD1D5B9F900028C995 /* event.h */,
+				29AC0CAE1D5B9F900028C995 /* event_fwd.h */,
+				29AC0CAF1D5B9F900028C995 /* logging.h */,
+				29AC0CB01D5B9F900028C995 /* logging_fwd.h */,
+				29AC0CB11D5B9F900028C995 /* metawearboard.h */,
+				29AC0CB21D5B9F900028C995 /* metawearboard_fwd.h */,
+				29AC0CB31D5B9F900028C995 /* module.h */,
+				29AC0CB41D5B9F900028C995 /* settings.h */,
+				29AC0CB51D5B9F900028C995 /* status.h */,
+				29AC0CB61D5B9F900028C995 /* timer.h */,
+				29AC0CB71D5B9F900028C995 /* timer_fwd.h */,
+				29AC0CB81D5B9F900028C995 /* types.h */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		29AC0C8E1D5B9F900028C995 /* cpp */ = {
+			isa = PBXGroup;
+			children = (
+				29AC0C8F1D5B9F900028C995 /* constant.h */,
+				29AC0C901D5B9F900028C995 /* datainterpreter.h */,
+				29AC0C911D5B9F900028C995 /* datasignal.cpp */,
+				29AC0C921D5B9F900028C995 /* datasignal_private.h */,
+				29AC0C931D5B9F900028C995 /* debug.cpp */,
+				29AC0C941D5B9F900028C995 /* event.cpp */,
+				29AC0C951D5B9F900028C995 /* event_private.h */,
+				29AC0C961D5B9F900028C995 /* event_register.h */,
+				29AC0C971D5B9F900028C995 /* logging.cpp */,
+				29AC0C981D5B9F900028C995 /* logging_private.h */,
+				29AC0C991D5B9F900028C995 /* logging_register.h */,
+				29AC0C9A1D5B9F900028C995 /* metawearboard_def.h */,
+				29AC0C9B1D5B9F900028C995 /* metawearboard_macro.h */,
+				29AC0C9C1D5B9F900028C995 /* moduleinfo.cpp */,
+				29AC0C9D1D5B9F900028C995 /* moduleinfo.h */,
+				29AC0C9E1D5B9F900028C995 /* register.h */,
+				29AC0C9F1D5B9F900028C995 /* responseheader.cpp */,
+				29AC0CA01D5B9F900028C995 /* responseheader.h */,
+				29AC0CA11D5B9F900028C995 /* settings.cpp */,
+				29AC0CA21D5B9F900028C995 /* settings_private.h */,
+				29AC0CA31D5B9F900028C995 /* settings_register.h */,
+				29AC0CA41D5B9F900028C995 /* timer.cpp */,
+				29AC0CA51D5B9F900028C995 /* timer_private.h */,
+				29AC0CA61D5B9F900028C995 /* timer_register.h */,
+				29AC0CA71D5B9F900028C995 /* version.cpp */,
+				29AC0CA81D5B9F900028C995 /* version.h */,
+			);
+			path = cpp;
+			sourceTree = "<group>";
+		};
+		29AC0CB91D5B9F900028C995 /* impl */ = {
+			isa = PBXGroup;
+			children = (
+				29AC0CBA1D5B9F900028C995 /* cpp */,
+			);
+			path = impl;
+			sourceTree = "<group>";
+		};
+		29AC0CBA1D5B9F900028C995 /* cpp */ = {
+			isa = PBXGroup;
+			children = (
+				29AC0CBB1D5B9F900028C995 /* datainterpreter.cpp */,
+				29AC0CBC1D5B9F900028C995 /* metawearboard.cpp */,
+			);
+			path = cpp;
+			sourceTree = "<group>";
+		};
+		29AC0CBD1D5B9F900028C995 /* peripheral */ = {
+			isa = PBXGroup;
+			children = (
+				29AC0CBE1D5B9F900028C995 /* cpp */,
+				29AC0CC31D5B9F900028C995 /* haptic.h */,
+				29AC0CC41D5B9F900028C995 /* ibeacon.h */,
+				29AC0CC51D5B9F900028C995 /* led.h */,
+				29AC0CC61D5B9F900028C995 /* neopixel.h */,
+				29AC0CC71D5B9F900028C995 /* peripheral_common.h */,
+			);
+			path = peripheral;
+			sourceTree = "<group>";
+		};
+		29AC0CBE1D5B9F900028C995 /* cpp */ = {
+			isa = PBXGroup;
+			children = (
+				29AC0CBF1D5B9F900028C995 /* haptic.cpp */,
+				29AC0CC01D5B9F900028C995 /* ibeacon.cpp */,
+				29AC0CC11D5B9F900028C995 /* led.cpp */,
+				29AC0CC21D5B9F900028C995 /* neopixel.cpp */,
+			);
+			path = cpp;
+			sourceTree = "<group>";
+		};
+		29AC0CC81D5B9F900028C995 /* platform */ = {
+			isa = PBXGroup;
+			children = (
+				29AC0CC91D5B9F900028C995 /* btle_connection.h */,
+				29AC0CCA1D5B9F900028C995 /* cpp */,
+				29AC0CD31D5B9F900028C995 /* dllmarker.h */,
+				29AC0CD41D5B9F900028C995 /* memory.h */,
+			);
+			path = platform;
+			sourceTree = "<group>";
+		};
+		29AC0CCA1D5B9F900028C995 /* cpp */ = {
+			isa = PBXGroup;
+			children = (
+				29AC0CCB1D5B9F900028C995 /* async_creator.cpp */,
+				29AC0CCC1D5B9F900028C995 /* async_creator.h */,
+				29AC0CCD1D5B9F900028C995 /* concurrent_queue.h */,
+				29AC0CCE1D5B9F900028C995 /* memory.cpp */,
+				29AC0CCF1D5B9F900028C995 /* task.cpp */,
+				29AC0CD01D5B9F900028C995 /* task.h */,
+				29AC0CD11D5B9F900028C995 /* threadpool.cpp */,
+				29AC0CD21D5B9F900028C995 /* threadpool.h */,
+			);
+			path = cpp;
+			sourceTree = "<group>";
+		};
+		29AC0CD51D5B9F900028C995 /* processor */ = {
+			isa = PBXGroup;
+			children = (
+				29AC0CD61D5B9F900028C995 /* accumulator.h */,
+				29AC0CD71D5B9F900028C995 /* average.h */,
+				29AC0CD81D5B9F900028C995 /* buffer.h */,
+				29AC0CD91D5B9F900028C995 /* comparator.h */,
+				29AC0CDA1D5B9F900028C995 /* counter.h */,
+				29AC0CDB1D5B9F900028C995 /* cpp */,
+				29AC0CEC1D5B9F900028C995 /* dataprocessor.h */,
+				29AC0CED1D5B9F900028C995 /* dataprocessor_fwd.h */,
+				29AC0CEE1D5B9F900028C995 /* delta.h */,
+				29AC0CEF1D5B9F900028C995 /* math.h */,
+				29AC0CF01D5B9F900028C995 /* passthrough.h */,
+				29AC0CF11D5B9F900028C995 /* processor_common.h */,
+				29AC0CF21D5B9F900028C995 /* pulse.h */,
+				29AC0CF31D5B9F900028C995 /* rms.h */,
+				29AC0CF41D5B9F900028C995 /* rss.h */,
+				29AC0CF51D5B9F900028C995 /* sample.h */,
+				29AC0CF61D5B9F900028C995 /* threshold.h */,
+				29AC0CF71D5B9F900028C995 /* time.h */,
+			);
+			path = processor;
+			sourceTree = "<group>";
+		};
+		29AC0CDB1D5B9F900028C995 /* cpp */ = {
+			isa = PBXGroup;
+			children = (
+				29AC0CDC1D5B9F900028C995 /* accumulator.cpp */,
+				29AC0CDD1D5B9F900028C995 /* average.cpp */,
+				29AC0CDE1D5B9F900028C995 /* buffer.cpp */,
+				29AC0CDF1D5B9F900028C995 /* combiner.cpp */,
+				29AC0CE01D5B9F900028C995 /* comparator.cpp */,
+				29AC0CE11D5B9F900028C995 /* dataprocessor.cpp */,
+				29AC0CE21D5B9F900028C995 /* dataprocessor_private.h */,
+				29AC0CE31D5B9F900028C995 /* dataprocessor_register.h */,
+				29AC0CE41D5B9F900028C995 /* delta.cpp */,
+				29AC0CE51D5B9F900028C995 /* math.cpp */,
+				29AC0CE61D5B9F900028C995 /* passthrough.cpp */,
+				29AC0CE71D5B9F900028C995 /* processor_private_common.h */,
+				29AC0CE81D5B9F900028C995 /* pulse.cpp */,
+				29AC0CE91D5B9F900028C995 /* sample.cpp */,
+				29AC0CEA1D5B9F900028C995 /* threshold.cpp */,
+				29AC0CEB1D5B9F900028C995 /* time.cpp */,
+			);
+			path = cpp;
+			sourceTree = "<group>";
+		};
+		29AC0CF81D5B9F900028C995 /* sensor */ = {
+			isa = PBXGroup;
+			children = (
+				29AC0CF91D5B9F900028C995 /* accelerometer.h */,
+				29AC0CFA1D5B9F900028C995 /* accelerometer_bosch.h */,
+				29AC0CFB1D5B9F900028C995 /* accelerometer_mma8452q.h */,
+				29AC0CFC1D5B9F900028C995 /* ambientlight_ltr329.h */,
+				29AC0CFD1D5B9F900028C995 /* barometer_bosch.h */,
+				29AC0CFE1D5B9F900028C995 /* colordetector_tcs34725.h */,
+				29AC0CFF1D5B9F900028C995 /* cpp */,
+				29AC0D2A1D5B9F900028C995 /* gpio.h */,
+				29AC0D2B1D5B9F900028C995 /* gyro_bmi160.h */,
+				29AC0D2C1D5B9F900028C995 /* humidity_bme280.h */,
+				29AC0D2D1D5B9F900028C995 /* i2c.h */,
+				29AC0D2E1D5B9F900028C995 /* magnetometer_bmm150.h */,
+				29AC0D2F1D5B9F900028C995 /* multichanneltemperature.h */,
+				29AC0D301D5B9F900028C995 /* proximity_tsl2671.h */,
+				29AC0D311D5B9F900028C995 /* sensor_common.h */,
+				29AC0D321D5B9F900028C995 /* spi.h */,
+				29AC0D331D5B9F900028C995 /* switch.h */,
+			);
+			path = sensor;
+			sourceTree = "<group>";
+		};
+		29AC0CFF1D5B9F900028C995 /* cpp */ = {
+			isa = PBXGroup;
+			children = (
+				29AC0D001D5B9F900028C995 /* accelerometer.cpp */,
+				29AC0D011D5B9F900028C995 /* accelerometer_bosch.cpp */,
+				29AC0D021D5B9F900028C995 /* accelerometer_bosch_private.h */,
+				29AC0D031D5B9F900028C995 /* accelerometer_bosch_register.h */,
+				29AC0D041D5B9F900028C995 /* accelerometer_mma8452q.cpp */,
+				29AC0D051D5B9F900028C995 /* accelerometer_mma8452q_private.h */,
+				29AC0D061D5B9F900028C995 /* accelerometer_mma8452q_register.h */,
+				29AC0D071D5B9F900028C995 /* accelerometer_private.h */,
+				29AC0D081D5B9F900028C995 /* ambientlight_ltr329.cpp */,
+				29AC0D091D5B9F900028C995 /* ambientlight_ltr329_private.h */,
+				29AC0D0A1D5B9F900028C995 /* ambientlight_ltr329_register.h */,
+				29AC0D0B1D5B9F900028C995 /* barometer_bosch.cpp */,
+				29AC0D0C1D5B9F900028C995 /* barometer_bosch_private.h */,
+				29AC0D0D1D5B9F900028C995 /* barometer_bosch_register.h */,
+				29AC0D0E1D5B9F900028C995 /* colordetector_tcs34725.cpp */,
+				29AC0D0F1D5B9F900028C995 /* colordetector_tcs34725_private.h */,
+				29AC0D101D5B9F900028C995 /* colordetector_tcs34725_register.h */,
+				29AC0D111D5B9F900028C995 /* gpio.cpp */,
+				29AC0D121D5B9F900028C995 /* gpio_private.h */,
+				29AC0D131D5B9F900028C995 /* gpio_register.h */,
+				29AC0D141D5B9F900028C995 /* gyro_bmi160.cpp */,
+				29AC0D151D5B9F900028C995 /* gyro_bmi160_private.h */,
+				29AC0D161D5B9F900028C995 /* gyro_bmi160_register.h */,
+				29AC0D171D5B9F900028C995 /* humidity_bme280.cpp */,
+				29AC0D181D5B9F900028C995 /* humidity_bme280_private.h */,
+				29AC0D191D5B9F900028C995 /* humidity_bme280_register.h */,
+				29AC0D1A1D5B9F900028C995 /* magnetometer_bmm150.cpp */,
+				29AC0D1B1D5B9F900028C995 /* magnetometer_bmm150_private.h */,
+				29AC0D1C1D5B9F900028C995 /* magnetometer_bmm150_register.h */,
+				29AC0D1D1D5B9F900028C995 /* multichanneltemperature.cpp */,
+				29AC0D1E1D5B9F900028C995 /* multichanneltemperature_private.h */,
+				29AC0D1F1D5B9F900028C995 /* multichanneltemperature_register.h */,
+				29AC0D201D5B9F900028C995 /* proximity_tsl2671.cpp */,
+				29AC0D211D5B9F900028C995 /* proximity_tsl2671_private.h */,
+				29AC0D221D5B9F900028C995 /* proximity_tsl2671_register.h */,
+				29AC0D231D5B9F900028C995 /* serialpassthrough.cpp */,
+				29AC0D241D5B9F900028C995 /* serialpassthrough_private.h */,
+				29AC0D251D5B9F900028C995 /* serialpassthrough_register.h */,
+				29AC0D261D5B9F900028C995 /* switch.cpp */,
+				29AC0D271D5B9F900028C995 /* switch_private.h */,
+				29AC0D281D5B9F900028C995 /* switch_register.h */,
+				29AC0D291D5B9F900028C995 /* utils.h */,
+			);
+			path = cpp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +578,53 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29AC0D361D5B9F900028C995 /* event.cpp in Sources */,
+				29AC0D541D5B9F900028C995 /* accelerometer.cpp in Sources */,
+				29AC0D461D5B9F900028C995 /* threadpool.cpp in Sources */,
+				29AC0D421D5B9F900028C995 /* neopixel.cpp in Sources */,
+				29AC0D381D5B9F900028C995 /* moduleinfo.cpp in Sources */,
+				29AC0D4A1D5B9F900028C995 /* combiner.cpp in Sources */,
+				29AC0D601D5B9F900028C995 /* serialpassthrough.cpp in Sources */,
+				29AC0D391D5B9F900028C995 /* responseheader.cpp in Sources */,
 				2989E67A1D5A3C0A00E5BA49 /* main.cpp in Sources */,
+				29AC0D5A1D5B9F900028C995 /* gpio.cpp in Sources */,
+				29AC0D371D5B9F900028C995 /* logging.cpp in Sources */,
+				29AC0D5C1D5B9F900028C995 /* humidity_bme280.cpp in Sources */,
+				29AC0D351D5B9F900028C995 /* debug.cpp in Sources */,
+				29AC0D411D5B9F900028C995 /* led.cpp in Sources */,
+				29AC0D511D5B9F900028C995 /* sample.cpp in Sources */,
+				29AC0D5E1D5B9F900028C995 /* multichanneltemperature.cpp in Sources */,
+				29AC0D521D5B9F900028C995 /* threshold.cpp in Sources */,
+				29AC0D3C1D5B9F900028C995 /* version.cpp in Sources */,
+				29AC0D4E1D5B9F900028C995 /* math.cpp in Sources */,
+				29AC0D3F1D5B9F900028C995 /* haptic.cpp in Sources */,
+				29AC0D561D5B9F900028C995 /* accelerometer_mma8452q.cpp in Sources */,
+				29AC0D4F1D5B9F900028C995 /* passthrough.cpp in Sources */,
+				29AC0D5B1D5B9F900028C995 /* gyro_bmi160.cpp in Sources */,
+				29AC0D3A1D5B9F900028C995 /* settings.cpp in Sources */,
+				29AC0D581D5B9F900028C995 /* barometer_bosch.cpp in Sources */,
+				29AC0D3E1D5B9F900028C995 /* metawearboard.cpp in Sources */,
+				29AC0D5D1D5B9F900028C995 /* magnetometer_bmm150.cpp in Sources */,
+				29AC0D3D1D5B9F900028C995 /* datainterpreter.cpp in Sources */,
+				29AC0D451D5B9F900028C995 /* task.cpp in Sources */,
+				29AC0D4D1D5B9F900028C995 /* delta.cpp in Sources */,
+				29AC0D501D5B9F900028C995 /* pulse.cpp in Sources */,
+				29AC0D551D5B9F900028C995 /* accelerometer_bosch.cpp in Sources */,
+				29AC0D481D5B9F900028C995 /* average.cpp in Sources */,
+				29AC0D401D5B9F900028C995 /* ibeacon.cpp in Sources */,
+				29AC0D4C1D5B9F900028C995 /* dataprocessor.cpp in Sources */,
+				29AC0D4B1D5B9F900028C995 /* comparator.cpp in Sources */,
+				29AC0D531D5B9F900028C995 /* time.cpp in Sources */,
+				29AC0D471D5B9F900028C995 /* accumulator.cpp in Sources */,
+				29AC0D441D5B9F900028C995 /* memory.cpp in Sources */,
+				29AC0D341D5B9F900028C995 /* datasignal.cpp in Sources */,
+				29AC0D3B1D5B9F900028C995 /* timer.cpp in Sources */,
+				29AC0D611D5B9F900028C995 /* switch.cpp in Sources */,
+				29AC0D491D5B9F900028C995 /* buffer.cpp in Sources */,
+				29AC0D591D5B9F900028C995 /* colordetector_tcs34725.cpp in Sources */,
+				29AC0D5F1D5B9F900028C995 /* proximity_tsl2671.cpp in Sources */,
+				29AC0D431D5B9F900028C995 /* async_creator.cpp in Sources */,
+				29AC0D571D5B9F900028C995 /* ambientlight_ltr329.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +715,7 @@
 		2989E67E1D5A3C0A00E5BA49 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -218,6 +723,7 @@
 		2989E67F1D5A3C0A00E5BA49 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
