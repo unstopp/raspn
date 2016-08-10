@@ -10,8 +10,8 @@
 #include "metawearboard_fwd.h"
 #include "module.h"
 
-#include "../../metawear/platform/btle_connection.h"
-#include "../../metawear/platform/dllmarker.h"
+#include "metawear/platform/btle_connection.h"
+#include "metawear/platform/dllmarker.h"
 
 /** Constant signifying a module is not available */
 const int32_t MBL_MW_MODULE_TYPE_NA = -1;

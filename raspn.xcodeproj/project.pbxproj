@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2989E67A1D5A3C0A00E5BA49 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2989E6791D5A3C0A00E5BA49 /* main.cpp */; };
-		29AC08921D5B8BCE0028C995 /* metawear-old in Frameworks */ = {isa = PBXBuildFile; fileRef = 29AC08901D5B8B5A0028C995 /* metawear-old */; };
-		29AC08961D5B91290028C995 /* metawear in Frameworks */ = {isa = PBXBuildFile; fileRef = 29AC08951D5B911D0028C995 /* metawear */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,7 +25,6 @@
 /* Begin PBXFileReference section */
 		2989E6761D5A3C0A00E5BA49 /* raspn */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = raspn; sourceTree = BUILT_PRODUCTS_DIR; };
 		2989E6791D5A3C0A00E5BA49 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		29AC08901D5B8B5A0028C995 /* metawear-old */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "metawear-old"; sourceTree = "<group>"; };
 		29AC08951D5B911D0028C995 /* metawear */ = {isa = PBXFileReference; lastKnownFileType = folder; path = metawear; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -36,8 +33,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29AC08961D5B91290028C995 /* metawear in Frameworks */,
-				29AC08921D5B8BCE0028C995 /* metawear-old in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,7 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				29AC08951D5B911D0028C995 /* metawear */,
-				29AC08901D5B8B5A0028C995 /* metawear-old */,
 				2989E6791D5A3C0A00E5BA49 /* main.cpp */,
 			);
 			path = raspn;
