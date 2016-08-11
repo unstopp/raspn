@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Code taken from https://github.com/NuGet/Home/issues/1508 -->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Target Name="_ValidatePlatformFoo" BeforeTargets="InjectReference">
+    <Error Condition="'$(TargetExt)' == '.exe' AND '$(Platform)' != 'x86' AND '$(Platform)' != 'x64' AND '$(Platform)' != 'ARM'"
+           Text="Unsupported platform value '$(Platform)'. The $(MSBuildThisFileName) package requires the Platform to be set to x86, x64, or ARM for executable applications." />
+  </Target>
+
+  <PropertyGroup>
+    <MetaWearPath>$(MSBuildThisFileDirectory)..\..\</MetaWearPath>
+    <_platformFoo Condition="'$(Platform)' == 'Win32'">x86</_platformFoo>
+    <_platformFoo Condition="'$(Platform)' != 'Win32'">$(Platform)</_platformFoo>
+  </PropertyGroup>
+
+  <!-- ensure we have a reference to the C++ CRT which may not be present in C#/VB/JS applications -->
+  <ItemGroup>
+    <SDKReference Include="Microsoft.VCLibs, Version=14.0" />
+  </ItemGroup>
+
+  <ItemDefinitionGroup Condition="'$(Language)' == 'C++'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>
+        $(MSBuildThisFileDirectory)include\;
+        %(AdditionalIncludeDirectories)
+      </AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>
+        $(MetaWearPath)runtimes\win10-$(_platformFoo)\native\MetaWear.WinRT.lib;
+        %(AdditionalDependencies)
+      </AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+
+  <!-- If the project.json file is missing assume a packages.config
+       based project and add the NuGet v3 assets.  -->
+  <ItemGroup Condition="!Exists('project.json') AND !Exists('$(MSBuildProjectName).project.json') AND '$(TargetPlatformIdentifier)' == 'UAP'">
+    <Reference Include="$(MetaWearPath)lib\uap10.0\MetaWear.WinRT.winmd">
+      <!-- Native WinMDs require implementation metadata that tells the 
+           packaging tasks where to look for the native dll to generate activation
+           metadata, we use just the short name then set up the native dll as a
+           a copy local asset.  In nuget v3 projects this is done automatically by 
+           the msbuild task -->
+      <Implementation>MetaWear.WinRT.dll</Implementation>
+    </Reference>
+    <ReferenceCopyLocalPaths Include="$(MetaWearPath)runtimes\win10-$(_platformFoo)\native\MetaWear.WinRT.dll" />
+  </ItemGroup>
+</Project>
