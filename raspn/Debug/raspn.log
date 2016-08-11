@@ -1,0 +1,2 @@
+﻿C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets(2049,5): error MSB3843: Project "raspn" targets platform "Windows", but references SDK "Visual C++ 2015 Runtime for Universal Windows Platform Apps v14.0" which targets platform "UAP".
+C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets(2049,5): error MSB3844: Project "raspn" targets platform version "8.1", but references SDK "Visual C++ 2015 Runtime for Universal Windows Platform Apps v14.0" which requires platform version "10.0.0.0" or higher.
